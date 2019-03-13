@@ -1,0 +1,15 @@
+canvas {
+  border:1px solid #d3d3d3;
+  margin-left: 85px;
+  margin-top: 85px;
+}
+
+p {
+  margin-left: 85px;
+}
+
+#enddiv {
+  margin-left: 85px; 
+  color:red; 
+  font-size: 20px;
+}
