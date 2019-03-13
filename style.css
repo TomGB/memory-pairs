@@ -13,3 +13,8 @@ p {
   color:red; 
   font-size: 20px;
 }
+
+.menu-link {
+  width: 100%;
+  display: block;
+}
