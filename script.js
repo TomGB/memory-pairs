@@ -34,11 +34,12 @@ var ctx = canvas.getContext('2d');
     canvas.onclick = function() {
 
 //start of function;
-
         numbClick ++;
 
-        var x = (event.pageX) - 100;
-        var y = (event.pageY) - 100;
+        var rect = canvas.getBoundingClientRect();        
+
+        var x = event.clientX - rect.left;
+        var y = event.clientY - rect.top;
 
         x = Math.floor (x / 80);
         y = Math.floor (y / 80);
